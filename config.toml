@@ -1,0 +1,31 @@
+baseURL = "http://airo.it/"
+languageCode = "en-us"
+title = "AIRO"
+theme = 'mainroad'
+relativeURLs = true
+
+
+[Params.logo]
+  #image = "img/robot_example_scaled.jpg" # Logo image. Path relative to "static"
+  title = "Italian Artificial Intelligence and Robotics Group (AIRO)" # Logo title, otherwise will use site title
+  
+[Params.style.vars]
+     highlightColor = "#5588ff"
+
+[Params]
+  customJS = ["https://code.jquery.com/jquery-3.7.1.min.js"]
+
+
+[menu]
+# HOME
+  [[menu.main]]
+    identifier = "home"
+    name = "About"
+    url="/home"
+    weight = 1000
+# MEMBERS
+  [[menu.main]]
+    identifier = "members"
+    name = "Members"
+    url="/members"
+    weight = 2000
