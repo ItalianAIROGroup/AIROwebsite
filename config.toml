@@ -5,9 +5,9 @@ theme = 'mainroad'
 relativeURLs = true
 
 
-[Params.logo]
+#[Params.logo]
   #image = "img/robot_example_scaled.jpg" # Logo image. Path relative to "static"
-  title = "Italian Artificial Intelligence and Robotics Group (AIRO)" # Logo title, otherwise will use site title
+ # title = "Italian Artificial Intelligence and Robotics Group (AIRO)" # Logo title, otherwise will use site title
   
 [Params.style.vars]
      highlightColor = "#5588ff"
@@ -21,7 +21,7 @@ relativeURLs = true
   [[menu.main]]
     identifier = "home"
     name = "About"
-    url="/home"
+    url="/index"
     weight = 1000
 # MEMBERS
   [[menu.main]]
@@ -29,3 +29,30 @@ relativeURLs = true
     name = "Members"
     url="/members"
     weight = 2000
+# RESEARCH GROUPS
+  [[menu.main]]
+    identifier = "reasearch_groups"
+    name = "Research Groups"
+    url="/research_groups"
+    weight = 2000
+# WORKSHOPS
+  [[menu.main]]
+    identifier = "workshops"
+    name = "WORKSHOPS"
+#    url="/workshop"
+    weight = 2000
+# AIRO 2022
+  [[menu.main]]
+    identifier = "AIRO2022"
+    name = "AIRO2022"
+    parent = "workshops"
+    url="/AIRO2022/home"
+    weight = 2000
+# AIRO 2023
+  [[menu.main]]
+    identifier = "AIRO2023"
+    name = "AIRO2023"
+    parent = "workshops"
+    url="/workshop/AIRO2023/home"
+    weight = 2000
+
