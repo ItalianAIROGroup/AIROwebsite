@@ -1,4 +1,4 @@
-baseURL = "http://airo.it/"
+baseURL = "https://italianairogroup.github.io/AIROwebsite/"
 languageCode = "en-us"
 title = "AIRO"
 theme = 'mainroad'
